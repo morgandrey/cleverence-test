@@ -1,10 +1,10 @@
 ﻿namespace CleverenceTest;
 
-public class HalfAsyncCaller
+public class AsyncCaller
 {
     private readonly EventHandler _handler;
 
-    public HalfAsyncCaller(EventHandler handler)
+    public AsyncCaller(EventHandler handler)
     {
         _handler = handler;
     }
